@@ -16,12 +16,13 @@ public class Main {
         queue.offer("Steve");
         queue.offer("Harold");
 
-        queue.poll();
-        queue.poll();
+        System.out.println(queue.size());
 
-        System.out.println(queue);
-        System.out.println(queue.isEmpty());
 
+//        queue.poll();
+//        queue.poll();
+//        System.out.println(queue);
+//        System.out.println(queue.isEmpty());
 //        System.out.println(queue.peek());
 
 
