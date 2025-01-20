@@ -14,7 +14,7 @@ public class Main {
         queue.offer("Steve");
         queue.offer("Harold");
 
-        System.out.println(queue);
+        System.out.println(queue.peek());
 
 
 
