@@ -9,6 +9,8 @@ public class Main {
 
         Queue<String> queue = new LinkedList<String>();
 
+
+
         queue.offer("Karen");
         queue.offer("Chad");
         queue.offer("Steve");
@@ -18,6 +20,7 @@ public class Main {
         queue.poll();
 
         System.out.println(queue);
+        System.out.println(queue.isEmpty());
 
 //        System.out.println(queue.peek());
 
