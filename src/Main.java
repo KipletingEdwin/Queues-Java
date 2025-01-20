@@ -11,6 +11,7 @@ public class Main {
 
         queue.offer("Karen");
         queue.offer("Chad");
+        queue.offer("Steve");
 
     }
 }
